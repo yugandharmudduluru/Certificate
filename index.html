@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificate Verification</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+}
+
+.hero{
+    background:#0f2e78;
+    color:#fff;
+    padding:70px 20px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.search-box{
+    max-width:650px;
+    margin:auto;
+    display:flex;
+}
+
+.search-box input{
+    flex:1;
+    padding:18px;
+    border:none;
+    border-radius:10px 0 0 10px;
+    font-size:18px;
+}
+
+.search-box button{
+    width:150px;
+    border:none;
+    background:#173f9c;
+    color:#fff;
+    font-size:18px;
+    border-radius:0 10px 10px 0;
+    cursor:pointer;
+}
+
+.container{
+    max-width:1100px;
+    margin:50px auto;
+    padding:20px;
+}
+
+.verify-card{
+    background:#173f9c;
+    color:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.verify-header{
+    padding:40px;
+    text-align:center;
+}
+
+.badge{
+    display:inline-block;
+    background:#13c296;
+    padding:8px 20px;
+    border-radius:30px;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+.verify-header h2{
+    font-size:42px;
+}
+
+.verify-header p{
+    margin-top:10px;
+}
+
+.info{
+    background:#fff;
+    color:#333;
+    display:flex;
+    justify-content:space-around;
+    padding:25px;
+}
+
+.info div{
+    text-align:center;
+}
+
+.label{
+    color:#777;
+    font-size:14px;
+    margin-bottom:5px;
+}
+
+.value{
+    font-weight:700;
+}
+
+.certificate-preview{
+    background:#fff;
+    margin-top:30px;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.certificate-preview img{
+    width:100%;
+    max-width:900px;
+    border-radius:10px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- <section class="hero">
+
+    <h1>Verify Certificate</h1>
+
+    <div class="search-box">
+        <input type="text" value="RTPL2026001">
+        <button>Verify</button>
+    </div>
+
+</section> -->
+
+<div class="container">
+
+    <div class="verify-card">
+
+        <div class="verify-header">
+
+            <div class="badge">
+                AUTHENTICATED CREDENTIAL
+            </div>
+
+            <h2>Certificate Verified</h2>
+
+            <p>
+                This document is an authentic credential issued by
+                Rooman Technologies Pvt Ltd
+            </p>
+
+        </div>
+
+        <div class="info">
+
+            <div>
+                <div class="label">Candidate</div>
+                <div class="value">Mudduluru Thulasi</div>
+            </div>
+
+            <div>
+                <div class="label">Domain</div>
+                <div class="value">AI & ML</div>
+            </div>
+
+            <div>
+                <div class="label">Issued On</div>
+                <div class="value">25/06/2026</div>
+            </div>
+
+            <div>
+                <div class="label">Credential ID</div>
+                <div class="value">RTPL2026001</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="certificate-preview">
+
+        <!-- Upload your certificate image -->
+        <img src="certificate.png" alt="Certificate">
+
+    </div>
+
+</div>
+
+</body>
+</html>
